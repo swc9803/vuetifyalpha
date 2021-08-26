@@ -1,5 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '@/pages/Home.vue'
+import Vuetify from '@/pages/Vuetify.vue'
+import Vue3 from '@/pages/Vue3.vue'
+import Scss from '@/pages/Scss.vue'
+import Firebase from '@/pages/Firebase.vue'
 
 const routes = [
   {
@@ -8,12 +12,24 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/vuetify',
+    name: 'Vuetify',
+    component: Vuetify
+  },
+  {
+    path: '/vue3',
+    name: 'Vue3',
+    component: Vue3
+  },
+  {
+    path: '/scss',
+    name: 'Scss',
+    component: Scss
+  },
+  {
+    path: '/firebase',
+    name: 'Firebase',
+    component: Firebase
   }
 ]
 
