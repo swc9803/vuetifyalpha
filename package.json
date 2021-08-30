@@ -1,5 +1,5 @@
 {
-  "name": "vuetify",
+  "name": "vuetifyscss",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
   "dependencies": {
     "@mdi/font": "5.9.55",
     "core-js": "^3.6.5",
+    "gsap": "^3.7.1",
     "node-sass": "^6.0.1",
     "roboto-fontface": "*",
     "vue": "^3.0.0",
