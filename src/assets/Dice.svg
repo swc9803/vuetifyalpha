@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 240 240">
+  <defs/>
+  <g id="dice">
+    <rect id="Rectangle 1" width="240" height="240" fill="#3FB27F" rx="40"/>
+    <circle id="Ellipse 1" cx="75" cy="95" r="25" fill="#33475B"/>
+    <path id="Ellipse 2" fill="#33475B" d="M190 95a25 25 0 11-50 0 25 25 0 0150 0z"/>
+    <circle id="Ellipse 3" cx="120" cy="165" r="25" fill="#33475B"/>
+  </g>
+</svg>
